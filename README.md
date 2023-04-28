@@ -4,9 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 ## Screenshots
+Uploading            |  Completed
+:-------------------------:|:-------------------------:
+<img src="https://user-images.githubusercontent.com/20699694/235198533-3b3bace1-e51c-46b6-9b2d-80e785218777.png" alt="image" width="350" />  |  <img src="https://user-images.githubusercontent.com/20699694/235200907-177956b3-f02e-4577-9ad6-0f9b319fe255.png" alt="image" width="350" />
 
-![image](https://user-images.githubusercontent.com/20699694/235198533-3b3bace1-e51c-46b6-9b2d-80e785218777.png)
-![image](https://user-images.githubusercontent.com/20699694/235200907-177956b3-f02e-4577-9ad6-0f9b319fe255.png)
+
 
 
 ## Development server
