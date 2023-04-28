@@ -1,0 +1,15 @@
+<app-file-upload-heading [title]="headingTitle"></app-file-upload-heading>
+<app-file-upload-body>
+  <app-file-upload-input
+    [label]="inputLabel"
+    [buttonText]="uploadButtonText"
+    [buttonDisabled]="buttonDisabled$ | async"
+    (clickButton)="onUploadButtonClicked($event)"
+    (selectFile)="onFileSelected($event)"
+  ></app-file-upload-input>
+  <app-file-upload-progress
+    *ngIf="uploadProgress$ | async as uploadProgress"
+    class="mt-4 block"
+    [progress]="uploadProgress"
+  ></app-file-upload-progress>
+</app-file-upload-body>

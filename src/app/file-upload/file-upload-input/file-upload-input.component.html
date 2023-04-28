@@ -1,0 +1,16 @@
+<label class="block text-gray-700 text-sm font-bold mb-2" for="file-upload">
+  {{ label }}
+</label>
+<input
+  id="file-upload"
+  type="file"
+  (change)="onFileSelected($event)"
+  class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+/>
+<button
+  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 disabled:pointer-events-none disabled:opacity-30"
+  [disabled]="buttonDisabled"
+  (click)="onButtonClicked($event)"
+>
+  {{ buttonText }}
+</button>
